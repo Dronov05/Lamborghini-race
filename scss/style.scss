@@ -11,10 +11,11 @@ html {
 }
 
 body {
-   font-size: 14px;
    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
    font-weight: 400;
-   color: $colorHeader;
+   font-size: 14px;
+   line-height: 1.2;
+   color: $colorBody;
 }
 
 a {
@@ -28,9 +29,22 @@ a {
    margin: 0 auto;
 }
 
-.header {}
+.header {
+   padding-top: 25px;
+}
 
 .nav {
    display: flex;
    justify-content: space-between;
+}
+
+.menu-list {
+   display: flex;
+   gap: 0 40px;
+   padding-top: 25px;
+}
+
+.menu-link {
+   color: $colorHeader;
+   font-size: 16px;
 }

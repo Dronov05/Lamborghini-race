@@ -11,9 +11,10 @@ html {
 }
 
 body {
-  font-size: 14px;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
   color: #040404;
 }
 
@@ -28,6 +29,10 @@ a {
   margin: 0 auto;
 }
 
+.header {
+  padding-top: 25px;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,4 +40,17 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.menu-link {
+  color: #363636;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
