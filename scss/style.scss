@@ -40,8 +40,6 @@ a {
    margin: 0 auto;
 }
 
-
-
 .header {
    padding-top: 25px;
    position: absolute;
@@ -130,3 +128,58 @@ a {
 
    }
 }
+
+.info {
+   margin-bottom: 100px;
+
+   &__part {
+      padding-top: 100px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__part-first {
+      display: block;
+   }
+
+   &__part-second &__text {
+      max-width: 352px;
+   }
+
+   &__part-third {
+      padding-top: 66px;
+   }
+
+   &__part-third &__text {
+      max-width: 380px;
+   }
+
+   &__title {
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      font-size: 32px;
+      font-weight: 300;
+   }
+
+   &__content {
+      flex-basis: 415px;
+   }
+
+   &__part-textbox {
+      display: flex;
+      justify-content: space-between;
+      gap: 0 20px;
+   }
+
+   &__text {
+      flex-basis: 440px;
+      margin-bottom: 30px;
+   }
+
+   &__part-img {
+      object-fit: cover;
+   }
+
+}
+
+// 18:58
