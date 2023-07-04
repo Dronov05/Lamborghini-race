@@ -151,7 +151,7 @@ a {
    }
 
    &__part-third &__text {
-      max-width: 380px;
+      max-width: 377px;
    }
 
    &__title {
@@ -180,6 +180,87 @@ a {
       object-fit: cover;
    }
 
+   &__table {
+      flex-basis: 450px;
+      border-bottom: 1px solid #040404;
+      position: relative;
+      top: 20px;
+
+      &::before {
+         content: '';
+         border-top: 1px solid #040404;
+         position: absolute;
+         width: 100%;
+         top: -20px;
+      }
+   }
+
+   &__table td {
+      padding-bottom: 20px;
+   }
+
 }
 
-// 28:40
+.track {
+   background-image: url(../images/track-bg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   &__inner {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+   }
+
+   &__title {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      font-size: 32px;
+      font-weight: 300;
+      text-transform: uppercase;
+   }
+
+   &__text {
+      max-width: 435px;
+   }
+
+   &__img {
+      margin: auto auto 90px auto;
+   }
+}
+
+.evo {}
+
+.evo-black {
+   background-color: #363636;
+   padding: 100px 0 50px;
+   color: #fff;
+
+   &__info {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__title {
+      font-size: 32px;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding-right: 50px;
+   }
+
+   &__infobox {
+      flex-basis: 437px;
+
+   }
+
+   &__text {
+      font-size: 14px;
+      margin-bottom: 30px;
+   }
+
+   &__img {
+      display: block;
+      margin: 200px auto 60px;
+   }
+}
